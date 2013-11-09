@@ -1,0 +1,176 @@
+<html>
+    <head>
+        <title>Shifting Visions: Donate</title>
+        <style>
+            p { font-family: "Lucida Console"; padding:15px; }
+            body { background-color: #C0C0C0;
+                    font-family: "Lucida Console", monospace;
+            }
+            a { font-family: "Lucida Console";
+                color: #000; }
+                
+            #scroller {
+                background-color: #424242;
+                padding-left: 40px;
+                height: 150px;
+                background-image: url(images/beachbannertest.jpg);
+                background-repeat: repeat-x;
+            }
+
+                
+            
+            /*------------------------------------*\
+                    NAV
+            \*------------------------------------*/
+            #nav{
+                    list-style:none;
+                    font-weight:bold;
+                    margin-bottom:10px;
+                    /* Clear floats */
+                    float:left;
+                    width:100%;
+                    /* Bring the nav above everything else--uncomment if needed.
+                    position:relative;
+                    z-index:5;
+                    */
+            }
+            #nav li{
+                    float:left;
+                    margin-right:10px;
+                    position:relative;
+                    padding-left:35px;
+                    padding-right:35px;
+            }
+            #nav a{
+                    display:block;
+                    padding:5px;
+                    /* color:#fff; */
+                    background:#C0C0C0; 
+                    text-decoration:none;
+            }
+            #nav a:hover{
+                    color:#fff;
+                    /* background:#6b0c36; */
+            }
+            
+            /*--- DROPDOWN ---*/
+            #nav ul{
+                    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+                    background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+                    list-style:none;
+                    position:absolute;
+                    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+            }
+            #nav ul li{
+                    padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+                    float:none;
+            }
+            #nav ul a{
+                    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+            }
+            #nav li:hover ul{ /* Display the dropdown on hover */
+                    left:-40px; /* Bring back on-screen when needed */
+            }
+            #nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+                    background:#98AFC7; 
+            }
+            #nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+                    text-decoration:none;
+            }
+            #nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+                    /* nada! background:#333; */
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <center>
+            
+        <table width=999px>
+            
+            <tr style="background-color:white">
+                <td>
+                    <img src="images/tj_short.jpg">
+                </td>
+            </tr>
+            
+            <tr style="background-color:#C0C0C0">
+                <td>
+                    <center><table><tr><td>
+                    <ul id="nav">
+                        <li><a href="index.html">Home</a></li>
+                        
+                        <li><a href="synopsis.html">TransJourney</a>
+                            <ul>
+                                 
+                                <li><a href="sponsors.html">Donate</a></li>
+                                <li><a href="reviews.html">Reviews</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="filmmakers.html">Filmmakers</a></li>
+                        
+                        <li><a href="featuredfilms.html">Featured Films</a>
+                            <ul>
+                                 
+                                <li><a href="purchase.html">Purchase</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="contact-form.html">Contact</a></li>
+                    </ul></td></tr></table></center>
+                </td>
+            </tr>  
+            
+            <tr style="background-color:white">
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <p>Shifting Visions is a non-profit film company that produces and distributes educational documentary
+                                films. We rely on financial support from foundation grants and state and federal agencies, businesses
+                                that sponsor us, and private individuals. Please consider making a donation to enable us to continue
+                                making films that make a difference in peoples’ lives and help foster a greater sensitivity to subjects that
+                                are often not visible to larger society.</p>
+                                
+                                <p>Checks can be made out to and mailed to:<br><br>
+                                
+                                Shifting Visions<br><br>
+                                
+                                780 Reservoir Ave, Suite 113<br><br>
+                                
+                                Cranston, R.I. 02910</p>
+                                
+                                
+                                
+                                <p>We are a non-profit 501 (c) 3 film company and therefore all of your donations are tax deductible. We
+                                would be glad to send you a letter for your tax records. You can mail us your donation to the above
+                                address or donate online. Thank you for your support.</p>
+                               
+                               <form action="https://www.paypal.com/cgi-bin/webscr" method="post"><input name="cmd" value="_s-xclick" type="hidden"><input name="hosted_button_id" value="J5FEWVQTDHUBY" type="hidden"><input src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" name="submit" alt="PayPal - The safer, easier way to pay
+                     online!" border="0" type="image"><img alt="" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" border="0" height="1" width="1"><br clear="right"></form> 
+                            </td>
+                        </tr>                        
+                    </table>
+                </td>
+            </tr>    
+            
+            <tr>
+                <td align=center style="background-color:#C0C0C0">
+                    <p>
+                    <a href="http://www.facebook.com/TransJourney" target=_blank><img src="images/Facebook.png" height=38 width=38 align=absmiddle></a>
+                    &copy; 2012 Shifting Visions Productions
+                    <a href="https://twitter.com/transjourney1" target=_blank><img src="images/Twitter.png" height=38 width=38 align=absmiddle></a>
+                    <br>
+                    <img src="images/eye_blue.png" height=96px width=124px>
+                    </p>
+                </td>   
+            </tr>
+            
+        </table>
+        
+        </center>
+    </body>
+</html>

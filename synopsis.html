@@ -1,0 +1,171 @@
+<html>
+    <head>
+        <title>Shifting Visions: TransJourney Synopsis</title>
+        <style>
+            p { font-family: "Lucida Console"; padding:10px; }
+            body { background-color: #C0C0C0;
+                    font-family: "Lucida Console", monospace;
+            }
+            a { font-family: "Lucida Console";
+                color: #000; }
+                
+
+                
+            
+            /*------------------------------------*\
+                    NAV
+            \*------------------------------------*/
+            #nav{
+                    list-style:none;
+                    font-weight:bold;
+                    margin-bottom:10px;
+                    /* Clear floats */
+                    float:left;
+                    width:100%;
+                    /* Bring the nav above everything else--uncomment if needed.
+                    position:relative;
+                    z-index:5;
+                    */
+            }
+            #nav li{
+                    float:left;
+                    margin-right:10px;
+                    position:relative;
+                    padding-left:35px;
+                    padding-right:35px;
+            }
+            #nav a{
+                    display:block;
+                    padding:5px;
+                    /* color:#fff; */
+                    background:#C0C0C0; 
+                    text-decoration:none;
+            }
+            #nav a:hover{
+                    color:#fff;
+                    /* background:#6b0c36; */
+            }
+            
+            /*--- DROPDOWN ---*/
+            #nav ul{
+                    background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+                    background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+                    list-style:none;
+                    position:absolute;
+                    left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+            }
+            #nav ul li{
+                    padding-top:1px; /* Introducing a padding between the li and the a give the illusion spaced items */
+                    float:none;
+            }
+            #nav ul a{
+                    white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+            }
+            #nav li:hover ul{ /* Display the dropdown on hover */
+                    left:-40px; /* Bring back on-screen when needed */
+            }
+            #nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+                    background:#98AFC7; 
+            }
+            #nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+                    text-decoration:none;
+            }
+            #nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+                    /* nada! background:#333; */
+            }
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <center>
+            
+        <table width=999px>
+            
+            <tr style="background-color:white">
+                <td>
+                    <img src="images/tj_short.jpg">
+                </td>
+            </tr>
+            
+            <tr style="background-color:#C0C0C0">
+                <td>
+                    <center><table><tr><td>
+                    <ul id="nav">
+                        <li><a href="index.html">Home</a></li>
+                        
+                        <li><a href="synposis.html">TransJourney</a>
+                            <ul>
+                                 
+                                <li><a href="sponsors.html">Donate</a></li>
+                                <li><a href="reviews.html">Reviews</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="filmmakers.html">Filmmakers</a></li>
+                        
+                        <li><a href="featuredfilms.html">Featured Films</a>
+                            <ul>
+                                 
+                                <li><a href="purchase.html">Purchase</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li><a href="contact-form.html">Contact</a></li>
+                    </ul></td></tr></table></center>
+                </td>
+            </tr>    
+            
+            <tr style="background-color:white">
+                <td>
+                    <table>
+                        <tr>
+                            <td>                              
+                                <p>
+                                    Shifting Vision’s new documentary work-in-progress, <em>TransJourney</em> explores how three women’s relationships are connected and made stronger, because of each other.
+                                </p>
+                                <p>
+                                    Three years ago Annabelle, who now lives in Seattle, was identified as a male at birth, came out to her
+                                    family and friends as female and began her transition towards life as a woman. Shannon, who also
+                                    lives nearby in Washington, has become friends with Annabelle as well as Annabelle’s mother, Sandra.
+                                    Shannon had provided Sandra with guidance on ways to care for her daughter after Annabelle’s gender
+                                    confirmation surgery. Now Shannon is preparing for her own gender confirmation surgery, but struggles
+                                    with illness as well as sexual discrimination.
+                                </p>
+                                <p>
+                                    In August 2013, Shifting Vision’s film crew will travel by van from Providence, Rhode Island to Seattle to
+                                    film Annabelle and Shannon’s world. Sandra, Annabelle’s mother, will travel with us to Seattle to visit
+                                    her daughter and to meet Shannon for the first time. We also will gain insight into how Sandra copes with
+                                    this life-altering event and strives to remain an integral part of her daughter's new world -- 3,000 miles
+                                    away!
+                                </p>
+                                <p>
+                                    <em>TransJourney</em> speaks to all of our desires to receive affirmation and to explore new borders whether it’s
+                                    with existing family members or with new acquaintances whom we embrace in our life. We hope that
+                                    <em>TransJourney</em> will enable all individuals to see themselves and others differently, and will inspire many not
+                                    to be afraid to be themselves, who ever they choose to be.
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>    
+            
+            <tr>
+                <td align=center style="background-color:#C0C0C0">
+                    <p>
+                    <a href="http://www.facebook.com/TransJourney" target=_blank><img src="images/Facebook.png" height=38 width=38 align=absmiddle></a>
+                    &copy; 2012 Shifting Visions Productions
+                    <a href="https://twitter.com/transjourney1" target=_blank><img src="images/Twitter.png" height=38 width=38 align=absmiddle></a>
+                    <br>
+                    <img src="images/eye_blue.png" height=96px width=124px>
+                    </p>
+                </td>   
+            </tr>
+            
+        </table>
+        
+        </center>
+    </body>
+</html>
