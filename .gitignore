@@ -2,3 +2,5 @@ video/
 *.mov
 *.wmv
 .DS_Store
+install.py
+traffic_logs
