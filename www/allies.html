@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Shifting Visions: TransJourney Synopsis</title>
@@ -81,16 +82,31 @@
             .ally-list {
               margin: 0;
               padding: 0;
+              list-style-type: none;
             }
 
-            .ally-list > li {
-              display: inline-block;
-              margin: 0 50px 50px;
+            .ally-list li {
+              /* IE6 doesn't understand inline-block, but renders fine with inline. */
+              display: inline;
+              margin: 0 50px;
               width: 200px;
-              list-style-type: none;
               text-align: center;
               vertical-align: middle;
               font-size: 150%;
+            }
+
+            /* Firefox needs inline-block; IE6 doesn't understand child selectors, so it will ignore this. */
+            .ally-list > li {
+              display: inline-block;
+            }
+
+            .ally-list a {
+              text-decoration: none;
+            }
+
+            .ally-logo {
+              border: none;
+              margin-bottom: 50px;
             }
         </style>
         
