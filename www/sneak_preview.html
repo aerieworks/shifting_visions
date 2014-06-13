@@ -1,26 +1,18 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Shifting Visions: Filmmakers</title>
+        <title>Shifting Visions: TransJourney Updates</title>
         <style>
             p { font-family: "Lucida Console"; padding:10px; }
-            
             body { background-color: #C0C0C0;
                     font-family: "Lucida Console", monospace;
             }
             a { font-family: "Lucida Console";
                 color: #000; }
-                
-            #scroller {
-                background-color: #424242;
-                padding-left: 40px;
-                height: 150px;
-                background-image: url(images/beachbannertest.jpg);
-                background-repeat: repeat-x;
-            }
 
-                
-            
+
+
+
             /*------------------------------------*\
                     NAV
             \*------------------------------------*/
@@ -47,14 +39,14 @@
                     display:block;
                     padding:5px;
                     /* color:#fff; */
-                    background:#C0C0C0; 
+                    background:#C0C0C0;
                     text-decoration:none;
             }
             #nav a:hover{
                     color:#fff;
                     /* background:#6b0c36; */
             }
-            
+
             /*--- DROPDOWN ---*/
             #nav ul{
                     background:#fff; /* Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
@@ -74,7 +66,7 @@
                     left:-40px; /* Bring back on-screen when needed */
             }
             #nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
-                    background:#98AFC7; 
+                    background:#98AFC7;
             }
             #nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
                     text-decoration:none;
@@ -83,52 +75,68 @@
                     /* nada! background:#333; */
             }
 
-            .person {
-              padding: 30px 10px 10px;
-              clear: both;
+            .content-container {
+              padding: 10px;
             }
 
-            .person-photo {
-              margin: 0 10px 10px 0;
-              width: 200px;
-              float: left;
+            .content-container > p {
+              padding: 0;
             }
 
-            .row-even > .person-photo {
-              margin-left: 10px;
-              margin-right: 0;
-              float: right;
+            .content-title {
+              margin-bottom: 0;
             }
 
-            .person > h2 {
+            .update-past {
+              margin-top: 50px;
+            }
+
+            .update-date {
+              margin-bottom: 0;
+            }
+
+            .update > p {
               margin-top: 0;
             }
 
-            .person > p {
-              padding: 0;
+            .update-resource {
+              display: block;
+              margin: 0 auto;
+            }
+
+            .event {
+              text-align: center;
+            }
+
+            .event-part {
+              display: block;
+            }
+
+            .event-date {
+              font-weight: bold;
             }
         </style>
-        
+
     </head>
-    
+
     <body>
-        
+
         <center>
-            
+
         <table width=999px>
-            
+
             <tr style="background-color:white">
                 <td>
                     <img src="images/tj_short.jpg">
                 </td>
             </tr>
-            
+
             <tr style="background-color:#C0C0C0">
                 <td>
                     <center><table><tr><td>
                     <ul id="nav">
                         <li><a href="index.html">Home</a></li>
-                        
+
                         <li><a href="synopsis.html">TransJourney</a>
                             <ul>
                                 <li><a href="sneak_preview.html">Sneak Preview</a></li>
@@ -139,69 +147,53 @@
                                 <li><a href="sponsors.html">Donate</a></li>
                             </ul>
                         </li>
-                        
+
                         <li><a href="filmmakers.html">Filmmakers</a></li>
-                        
+
                         <li><a href="featuredfilms.html">Featured Films</a>
                             <ul>
-                                 
+
                                 <li><a href="purchase.html">Purchase</a></li>
                             </ul>
                         </li>
-                        
+
                         <li><a href="contact-form.html">Contact</a></li>
                     </ul></td></tr></table></center>
                 </td>
-            </tr>    
-            
+            </tr>
+
             <tr style="background-color:white">
                 <td>
-                  <div class="person">
-                    <img src="images/lex.jpg" class="person-photo" />
-                    <h2>Alexia Kosmider <em>Co-Director/Producer</em></h2>
-                    <p>
-                      Her documentaries include <em>Not Your Mama's Roller Derby</em> (Co-Directed with Deborah Monuteux). The documentary chronicles the Providence Roller Derby national team, the Riveters, rise to a visible and competitive roller derby team. The documentary premiered at the Rhode Island International Film Festival (August 2009).
-                    </p>
-                    <p>
-                      Her most recent documentary, <em>Sappho's Fire</em> (2011), follows the lives of ten lesbians, single and married, as they confront the issues that surround their older age. The film premiered at the Boston LGBTQ Film Festival at the Boston Fine Arts Museum.
-                    </p>
-                    <p>
-                      Alexia is a Senior Lecturer at RISD, where she frequently teaches Queer Cinema and LGBTQ Literature &amp; Culture.
-                    </p>
-                  </div>
-                  <div class="person row-even">
-                    <img src="images/people/blue.jpg" class="person-photo" />
-                    <h2>Blue Wade <em>Co-Director</em></h2>
-                    <p>
-                      Blue earned her M.F.A. in Digital Media from RISD. She has worked as a videographer, animator, and a consultant on various documentaries produced by Shifting Visions. Her art work as been shown all over the country and internationally, including in New York and New Zealand. Recently her art work appeared in the exhibit For My People, Museum of African Diaspora, San Francisco. Blue brings her wide-ranging media experience to the creative process of filmmaking.
-                    </p>
-                    <p>
-                      She is currently the Chair of the Arts and Media Division, Marymount California University.
-                    </p>
-                  </div>
-                  <div class="person">
-                    <img src="images/people/michael.jpg" class="person-photo" />
-                    <h2>Michael Welty <em>Director of Photography</em></h2>
-                    <p>
-                      Michael is a Freelance Director of Photography/Camera Operator, with international experience shooting film and video. He has worked on a variety of narratives, documentaries, and commercial productions. His most recent work includes <em>Dominica: Charting a Future for Paradise</em> (Bardouille Productions) and <em>Haiti Earthquake Relief</em> (RWH Foundation).
-                    </p>
-                  </div>
-                  <div class="person row-even">
-                    <img src="images/people/david.jpg" class="person-photo" />
-                    <h2>David Stephens <em>Sound Recordist and Videographer</em></h2>
-                    <p>
-                      David is a student at University of Rhode Island's Media Program.  He has worked on several film projects in conjunction with URI's Media Studies program.
-                    </p>
-                  </div>
-                  <div class="person">
-                    <img src="images/people/messina.jpg" class="person-photo" />
-                    <h2>Marianne Messina <em>Music Composer</em></h2>
-                    <p>
-                      Marianne is the originator of Heuron Productions, which has been making soundtracks for many years. Most of Heuron's earlier tracks were composed for short stories. "Warrior", "Roller Chicks" and "Win at the End" are featured in <em>Not Your Mama's Roller Derby</em>. More recently, her song "Wingsong" opens Shifting Vision's documentary, <em>Sappho's Fire</em>.
-                    </p>
+                    <table>
+                        <tr>
+                            <td class="content-container">
+                              <div class="update">
+                                <p>
+                                  Get a sneak preview of TransJourney July 13th and 14th at "Secret Cinema" - a sneak peak at the some of the films to be shown at Flickers: Rhode Island International Film Festival!
+                                </p>
+                                <p class="event">
+                                  <span class="event-part event-date">Friday, June 13th, 2014</span>
+                                  <span class="event-part">7:30 P.M.</span>
+                                  at The Vets, 1 Avenue of the Arts, Providence, RI
+                                </p>
+                                <p class="event">
+                                  <span class="event-part event-date">Friday, June 14th, 2014</span>
+                                  <span class="event-part">7:30 P.M.</span>
+                                  at The Bells Street Chapel Theatre, 5 Bell Street, Providence, RI
+                                </p>
+                                <p class="event">
+                                  Fee: $10 donation
+                                </p>
+                                <p class="event">
+                                  <a href="http://www.film-festival.org/Prov.GLBT.FestPREV14.php">More Information</a>
+                                </p>
+                              </div>
+                            </td>
+                        </tr>
+                    </table>
                 </td>
-            </tr>    
-            
+            </tr>
+
             <tr>
                 <td align=center style="background-color:#C0C0C0">
                     <p>
@@ -211,11 +203,11 @@
                     <br>
                     <img src="images/eye_blue.png" height=96px width=124px>
                     </p>
-                </td>   
+                </td>
             </tr>
-            
+
         </table>
-        
+
         </center>
     </body>
 </html>
